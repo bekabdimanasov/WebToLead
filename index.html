@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-box"> 
+  <h2>Login</h2>
+  <form id="myform" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D7R000005GsUr" method="POST">
+    <input type=hidden name="oid" value="00D7R000005GsUr">
+    <input type=hidden name="retURL" value="">
+
+    <div class="user-box">
+      <input id="first_name" type="text" name="first_name" required="">
+      <label for="first_name">First Name</label>
+    </div>
+
+    <div class="user-box">
+        <input id="last_name" type="text" name="last_name" required="">
+        <label for="last_name">Last Name</label>
+    </div>
+
+    <div class="user-box">
+        <input id="email" type="email" name="email" required="">
+        <label for="email">Email</label>
+    </div>
+
+    <div class="user-box">
+        <input id="company" type="text" name="company" required="">
+        <label for="company">Company</label>
+    </div>
+
+    <div class="user-box">
+        <input id="city" type="text" name="city" required="">
+        <label for="city">City</label>
+    </div>
+
+    <a type="submit" onclick="document.getElementById('myform').submit()">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      submit
+    </a>
+    
+    
+  </form>
+</div>
+</body>
+</html>
+    
